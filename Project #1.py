@@ -7,7 +7,7 @@ oil_need_to_prdc = vlm_of_ptrl_in_gllns / 19.5 # Calculating volume of oil neede
 vlm_of_ethnl = vlm_of_ptrl_in_gllns * 115000 / 75700 # Calculating the equal volume of ethanol.
 price_in_dollars = vlm_of_ptrl_in_gllns * 3.00 # Calculating the price of such volume of petrol.
 annual_ptrl_cons_ru = 745.12 * 365 / 0.0063 # Calculating the approximate annual consuption of petrol in Russia.
-daily_ptrl_cons_nsk = 745.12 / 147*10**6 / 0.0063 * 1633595 # Calculating the approximate daily consuption of petrol in Novosibirsk
+daily_ptrl_cons_nsk = 745.12 / 147*10**6 / 0.0063 * 1633595 # Calculating the approximate daily consuption of petrol in Novosibirsk.
 
 print(ru.vlm_of_ptrl_in_ltrs, vlm_of_ptrl_in_ltrs)
 print(ru.vlm_of_CO2, vlm_of_CO2)
